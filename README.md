@@ -23,8 +23,8 @@ To write a program to predict car prices using a linear regression model and tes
 ```py
 
 #Program to implement linear regression model for predicting car prices and test assumptions.
-#Developed by: MOHAMMED SAAJID S
-#RegisterNumber: 212223240093
+#Developed by: KEERTHANA S
+#RegisterNumber: 212223240070
 
 # Import necessary libraries
 import pandas as pd
