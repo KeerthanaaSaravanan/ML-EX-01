@@ -1,5 +1,10 @@
 # BLENDED_LEARNING
 # Implementation-of-Linear-Regression-for-Predicting-Car-Prices
+<H3>NAME: KEERTHANA S</H3>
+<H3>REGISTER NO.: 212223240070</H3>
+<H3>EX. NO.1</H3>
+<H3>DATE:</H3>
+
 ## AIM:
 To write a program to predict car prices using a linear regression model and test the assumptions for linear regression.
 
@@ -21,10 +26,6 @@ To write a program to predict car prices using a linear regression model and tes
 ## Program:
 
 ```py
-
-#Program to implement linear regression model for predicting car prices and test assumptions.
-#Developed by: KEERTHANA S
-#RegisterNumber: 212223240070
 
 # Import necessary libraries
 import pandas as pd
