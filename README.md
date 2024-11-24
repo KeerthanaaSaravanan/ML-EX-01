@@ -114,7 +114,13 @@ plt.show()
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/fb4b80af-d040-4a74-a438-b1397cbebae1)
+![image](https://github.com/user-attachments/assets/f26ea8e3-9469-449d-b2fd-744f1aa6f5f0)
+
+![image](https://github.com/user-attachments/assets/fd5f021c-36b9-4bbb-85e6-816b3d321905)
+
+![image](https://github.com/user-attachments/assets/32a22f37-938e-46fb-8ffc-fa28b78488e0)
+![image](https://github.com/user-attachments/assets/d9b75766-8392-4c8b-ae55-4ba4a64077bc)
+![image](https://github.com/user-attachments/assets/0c66a60e-22c9-4aca-b316-6b3cb01c2f7d)
 
 
 ## Result:
