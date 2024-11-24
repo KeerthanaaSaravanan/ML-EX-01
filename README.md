@@ -27,6 +27,7 @@ To write a program to predict car prices using a linear regression model and tes
 ```py
 # Import necessary libraries
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
@@ -56,13 +57,37 @@ print("Mean Absolute Error:", mean_absolute_error(y_test, y_pred))
 print("Mean Squared Error:", mean_squared_error(y_test, y_pred))
 print("R² Score:", r2_score(y_test, y_pred))
 
+# Check the assumption of linearity by plotting
+plt.figure(figsize=(10, 6))
+for i, col in enumerate(['horsepower', 'curbweight', 'enginesize', 'highwaympg']):
+    plt.subplot(2, 2, i+1)
+    plt.scatter(data[col], data['price'])
+    plt.xlabel(col)
+    plt.ylabel('Price')
+    plt.title(f'Price vs {col}')
+plt.tight_layout()
+plt.show()
 
+# Check homoscedasticity (residuals vs predictions)
+plt.scatter(y_pred, y_test - y_pred)
+plt.xlabel('Predicted Prices')
+plt.ylabel('Residuals')
+plt.title('Residuals vs Predicted Prices')
+plt.axhline(0, color='red', linestyle='--')
+plt.show()
+
+# Check normality of residuals (histogram of residuals)
+plt.hist(y_test - y_pred, bins=30)
+plt.xlabel('Residuals')
+plt.ylabel('Frequency')
+plt.title('Histogram of Residuals')
+plt.show()
 ```
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/0df379cd-2339-4a3b-b266-95f02733d133)
-
-
+![image](https://github.com/user-attachments/assets/d1b0cbb3-e34a-43c8-87f9-ab842b2026d1)
+![image](https://github.com/user-attachments/assets/ceb74ade-8fd1-4744-9306-c48bc4839a37)
 
 ## Result:
 Thus, the program to implement a linear regression model for predicting car prices is written and verified using Python programming, along with the testing of key assumptions for linear regression.
