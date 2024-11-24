@@ -2,7 +2,7 @@
 <H3>NAME: KEERTHANA S</H3>
 <H3>REGISTER NO.: 212223240070</H3>
 <H3>EX. NO.1</H3>
-<H3>DATE:</H3>
+<H3>DATE: 12.08.24</H3>
 
 ## AIM:
 To write a program to predict car prices using a linear regression model and test the assumptions for linear regression.
